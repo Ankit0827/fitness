@@ -5,7 +5,7 @@ import whitetick from "../assets/whiteTick.png";
 
 const Plan = () => {
   return (
-    <div className="plans-container">
+    <div className="plans-container" id="plan">
       <div className="programs-header">
         <span className="Outline-text" style={{ gap: "2rem" }}>
           READY TO START

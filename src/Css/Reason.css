@@ -91,7 +91,9 @@
 
 
   @media screen and (max-width:768px) {
-
+    ::-webkit-scrollbar {
+        display: none;
+      }
     .Reason_div{
         flex-direction: column;
     }
@@ -111,8 +113,8 @@
         width: 8rem;
         height: 8rem;
     }.left_side_reason>:nth-child(4){
-        width: 7rem;
-        height: 6rem;
+        width: 5.8rem;
+        height: 8rem;
     }
   }
 
